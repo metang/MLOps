@@ -1,12 +1,12 @@
 variables:
   #IMPORTANT: Update BASE_NAME with your GLOBALLY unique name. Rules: No underscore, max 10 chars & all lower case
-  BASE_NAME: 'setu49' #used only during environment creation
+  BASE_NAME: 'meng' #used only during environment creation
   #If you want to use an existing workspace, change all the below values according to current setup
-  WORKSPACE: '${{ variables.BASE_NAME }}-ws'
-  RESOURCE_GROUP: '${{ variables.BASE_NAME }}-rg'
-  STORAGE_ACCOUNT: '${{ variables.BASE_NAME }}sa'
-  KEY_VAULT: '${{ variables.BASE_NAME }}kv'
-  APP_INSIGHTS: '${{ variables.BASE_NAME }}appins'
+  WORKSPACE: '${{ variables.BASE_NAME }}'
+  RESOURCE_GROUP: 'MLOps'
+  STORAGE_ACCOUNT: 'meng8811178381'
+  KEY_VAULT: 'meng2198524854'
+  APP_INSIGHTS: 'meng7724678231'
   ACR: '${{ variables.BASE_NAME }}acr'
   AML_COMPUTE_CLUSTER: 'amlcluster'
   AKS_CLUSTER: '${{ variables.BASE_NAME }}-aks'
@@ -14,7 +14,7 @@ variables:
   #Other configuration information
   AML_COMPUTE_SKU: 'STANDARD_DS4_V2'
 
-  LOCATION: 'eastus2'
+  LOCATION: 'eastasia'
   RM_SERVICE_CONNECTION: 'AzureResourceManagerConnection'
 
   #Details of individual models
