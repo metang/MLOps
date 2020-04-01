@@ -15,7 +15,7 @@ variables:
   AML_COMPUTE_SKU: 'STANDARD_DS4_V2'
 
   LOCATION: 'eastasia'
-  RM_SERVICE_CONNECTION: 'AzureResourceManagerConnection'
+  RM_SERVICE_CONNECTION: 'MLOpsRGConn'
 
   #Details of individual models
 
