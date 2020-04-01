@@ -4,9 +4,9 @@ variables:
   #If you want to use an existing workspace, change all the below values according to current setup
   WORKSPACE: '${{ variables.BASE_NAME }}'
   RESOURCE_GROUP: 'MLOps'
-  STORAGE_ACCOUNT: 'meng8811178381'
-  KEY_VAULT: 'meng2198524854'
-  APP_INSIGHTS: 'meng7724678231'
+  STORAGE_ACCOUNT: 'meng9427559470'
+  KEY_VAULT: 'meng9777770527'
+  APP_INSIGHTS: 'meng4945475069'
   ACR: '${{ variables.BASE_NAME }}acr'
   AML_COMPUTE_CLUSTER: 'amlcluster'
   AKS_CLUSTER: '${{ variables.BASE_NAME }}-aks'
@@ -14,7 +14,7 @@ variables:
   #Other configuration information
   AML_COMPUTE_SKU: 'STANDARD_DS4_V2'
 
-  LOCATION: 'eastasia'
+  LOCATION: 'eastus'
   RM_SERVICE_CONNECTION: 'MLOpsRGConn'
 
   #Details of individual models
